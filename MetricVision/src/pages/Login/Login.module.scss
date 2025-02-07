@@ -1,0 +1,96 @@
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(237 85 90);
+    .logo{
+        width: 200px;
+        margin: 20px 0;
+        img{
+            width: 100%;
+        }
+    }
+    .loginForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        padding: 50px;
+        border-radius: 20px;
+        background-color: #fff;
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            .formGroup{
+                label{
+                    font-weight: 500;
+                }
+                input{
+                    width: 200px;
+                }
+                display: flex;
+                gap: 5px;
+                justify-content: center;
+            }
+            button{
+                width: 90%;
+                font-weight: 500;
+                border-radius: 5px;
+                padding: 5px;
+                color: #fff;
+                background-color: rgb(237 85 90);
+                border-color: transparent;
+            }
+        }
+    }
+}
+.loginButton{
+    width: fit-content;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    background-color: #0055a2;
+    border-color: transparent;
+}
+.redirectBtnContainer{
+    display: flex;
+    gap: 10px;
+}
+.loaderWrapper{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  .loader{
+        width: 48px;
+        height: 48px;
+        border: 5px solid #FFF;
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+    }
+    @keyframes rotation {
+        0% {
+                transform: rotate(0deg);
+        }
+        100% {
+                transform: rotate(360deg);
+        }
+    } 
+}
+.hidden{
+    display: none;
+}

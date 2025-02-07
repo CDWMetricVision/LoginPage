@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-metricvision-dev-50596-authRole",
+      "UnauthRoleArn": "arn:aws:iam::585008069117:role/amplify-metricvision-dev-50596-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::585008069117:role/amplify-metricvision-dev-50596-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-metricvision-dev-50596-deployment",
+      "UnauthRoleName": "amplify-metricvision-dev-50596-unauthRole",
+      "StackName": "amplify-metricvision-dev-50596",
+      "StackId": "arn:aws:cloudformation:us-east-1:585008069117:stack/amplify-metricvision-dev-50596/96244900-e2f5-11ef-9310-0affccb0cbdb",
+      "AmplifyAppId": "d3gamjlid11u77"
+    },
+    "categories": {
+      "auth": {
+        "metricvisionbb9caca0": {
+          "userPoolId": "us-east-1_42MuR5mWT",
+          "userPoolName": "sandboxdev",
+          "webClientId": "668e6hauea4i49gc1a40qt7vn0",
+          "nativeClientId": "668e6hauea4i49gc1a40qt7vn0"
+        }
+      }
+    }
+  }
+}
